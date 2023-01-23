@@ -12,11 +12,13 @@
     mc:Ignorable="d">
     <StackPanel>
         <TextBlock
+            Name="theView"
             Width="400"
             Height="150"
+            Padding="30"
             Background="#ade8f4"
-            FontSize="75"
-            Text="TEMPLET" />
+            FontSize="45"
+            TextAlignment="Right" />
         <Grid
             Height="462.5"
             Margin="0"
@@ -54,6 +56,7 @@
                 Grid.Column="0"
                 Background="#00b4d8"
                 BorderThickness="0"
+                Click="button7"
                 Content="7"
                 FontSize="35"
                 FontWeight="Bold">
@@ -70,7 +73,7 @@
                 BorderThickness="0"
                 Content="4"
                 FontSize="35"
-                FontWeight="Bold">
+                FontWeight="Bold" Click="Button4">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10" />
@@ -84,7 +87,7 @@
                 BorderThickness="0"
                 Content="1"
                 FontSize="35"
-                FontWeight="Bold">
+                FontWeight="Bold" Click="Button1">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10" />
@@ -98,7 +101,7 @@
                 BorderThickness="0"
                 Content="0"
                 FontSize="35"
-                FontWeight="Bold">
+                FontWeight="Bold" Click="Button0">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10" />
@@ -126,7 +129,7 @@
                 BorderThickness="0"
                 Content="8"
                 FontSize="35"
-                FontWeight="Bold">
+                FontWeight="Bold" Click="Button8">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10" />
@@ -140,7 +143,7 @@
                 BorderThickness="0"
                 Content="5"
                 FontSize="35"
-                FontWeight="Bold">
+                FontWeight="Bold" Click="Button5">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10" />
@@ -154,7 +157,7 @@
                 BorderThickness="0"
                 Content="2"
                 FontSize="35"
-                FontWeight="Bold">
+                FontWeight="Bold" Click="Button2">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10" />
@@ -180,9 +183,9 @@
                 Grid.Column="2"
                 Background="#00b4d8"
                 BorderThickness="0"
-                Content="post"
+                Content="del"
                 FontSize="35"
-                FontWeight="Bold">
+                FontWeight="Bold" Click="DeleteLastDigite">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10" />
@@ -196,7 +199,7 @@
                 BorderThickness="0"
                 Content="9"
                 FontSize="35"
-                FontWeight="Bold">
+                FontWeight="Bold" Click="Button9">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10" />
@@ -210,7 +213,7 @@
                 BorderThickness="0"
                 Content="6"
                 FontSize="35"
-                FontWeight="Bold">
+                FontWeight="Bold" Click="Button6">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10" />
@@ -224,7 +227,7 @@
                 BorderThickness="0"
                 Content="3"
                 FontSize="35"
-                FontWeight="Bold">
+                FontWeight="Bold" Click="Button3">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10" />
@@ -294,7 +297,7 @@
                 BorderThickness="0"
                 Content="+"
                 FontSize="35"
-                FontWeight="Bold">
+                FontWeight="Bold" Click="ButtonPlus">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10" />
